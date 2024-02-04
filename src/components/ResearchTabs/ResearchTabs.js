@@ -55,7 +55,7 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <ResearchTabs value={value} index={0}>
-      <h1>Research Bot for Deloitte coming soon!</h1>
+         <iframe width="100%" height="750" src="https://console.dialogflow.com/api-client/demo/embedded/d04c7556-29ab-4f9e-8807-c3175b325d02"></iframe>
       </ResearchTabs>
       <ResearchTabs value={value} index={1}>
          <h1>Research Bot for Accenture coming soon!</h1>
