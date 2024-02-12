@@ -55,7 +55,14 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <ResearchTabs value={value} index={0}>
-         <iframe width="100%" height="750" src="https://console.dialogflow.com/api-client/demo/embedded/d04c7556-29ab-4f9e-8807-c3175b325d02"></iframe>
+         {/* <iframe width="100%" height="750" src="https://console.dialogflow.com/api-client/demo/embedded/d04c7556-29ab-4f9e-8807-c3175b325d02"></iframe> */}
+         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+         <df-messenger
+         intent="WELCOME"
+         chat-title="DeloitteConsultingResearch"
+         agent-id="d04c7556-29ab-4f9e-8807-c3175b325d02"
+         language-code="en"
+         ></df-messenger>
       </ResearchTabs>
       <ResearchTabs value={value} index={1}>
          <h1>Research Bot for Accenture coming soon!</h1>
